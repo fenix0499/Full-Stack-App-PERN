@@ -1,0 +1,30 @@
+.menu-top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-top button {
+	color: #fff;
+}
+
+.menu-top button:hover {
+	color: #0098d3;
+}
+
+.menu-top button:focus {
+	color: #fff;
+}
+
+.menu-top button:active {
+	color: #fff;
+}
+
+.menu-top__left-logo {
+	width: 85px;
+	padding: 0px 25px;
+}
+
+.menu-top__right {
+	width: 85px;
+	padding: 0px 25px;
+}

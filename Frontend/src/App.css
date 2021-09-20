@@ -1,0 +1,18 @@
+.success {
+  border: 1px solid #84b84c !important;
+  background-color: #84b84c1f !important;
+}
+
+.error {
+  border: 1px solid #f00 !important;
+  background-color: #ff00001f !important;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 5px;
+}

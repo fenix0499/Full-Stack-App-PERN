@@ -1,0 +1,63 @@
+.register-form {
+  /* text-align: left; */
+}
+
+.register-form .ant-form-item:nth-child(3) .ant-form-item:last-of-type {
+  margin: 0;
+}
+
+
+.register-form__input {
+  padding: 0 !important;
+}
+
+.register-form__input .ant-input-prefix {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  left: 1;
+	/* margin-top: 3px; */
+	margin-left: 5px;
+}
+
+.register-form__input .ant-input-prefix .login-form__icono-input {
+  font-size: 0em + 22px / 16px;
+}
+
+.register-form__input input {
+  font-size: 0em + 20px / 16;
+  padding-left: 8% !important;
+  /* margin-bottom: 25px; */
+  width: 100% !important;
+  /* height: 25px !important; */
+  /* border-radius: 5px; */
+}
+
+.register-form__input .ant-input:focus {
+  border-color: #0098d3 !important;
+  box-shadow: none;
+}
+
+.register-form__button {
+  width: 100%;
+  font-size: 0em + 22px / 16px;
+  background-color: #0098d3;
+  color: #fff;
+  height: 42px;
+  border: 0 !important;
+}
+
+.register-form__button:hover {
+  background-color: #0280b3;
+  color: #fff;
+}
+
+.register-form__button:focus  {
+  background-color: #0280b3;
+  color: #fff;
+}
+
+.register-form__button .login-form__button:active {
+  background-color: #0280b3;
+  color: #fff;
+}

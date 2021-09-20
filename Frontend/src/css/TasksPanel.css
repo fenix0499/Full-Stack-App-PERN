@@ -1,0 +1,19 @@
+.tasks-panel {
+  height: 76vh !important;
+  overflow-y: scroll !important;
+}
+
+.tasks-panel .ant-card {
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tasks-panel::-webkit-scrollbar {
+  width: 7px;
+}
+
+.tasks-panel::-webkit-scrollbar-thumb {
+  background: #9c9c9c;
+  border-radius: 5px;
+}
